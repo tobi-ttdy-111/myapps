@@ -1,0 +1,143 @@
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.container {
+    width: 100%;
+    /* height: 100vh; */
+    min-height: 100vh;
+    background: #252836;
+    padding: 3rem;
+}
+
+
+h1 {
+    color: #f3f3f3;
+}
+
+
+.sub {
+    color: #ABBBC2;
+    margin-top: 5px;
+    margin-bottom: 2rem;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #ABBBC2;
+    margin-bottom: 2rem;
+}
+
+
+.info {
+    width: 100%;
+    height: 3.2rem;
+    background: #1F1D2B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: .7rem;
+}
+
+
+.info p {
+    color: #ABBBC2;
+    margin-right: 3rem;
+}
+
+
+.info input {
+    height: 70%;
+    background: #252836;
+    border-radius: 10px;
+    border: none;
+    color: #ABBBC2;
+    font-weight: 600;
+    width: 10%;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cuadro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 3.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.coo {
+    background: #1F1D2B;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .1rem;
+    border-radius: 10px;
+}
+
+
+.coo p {
+    color: #9290FE;
+}
+
+
+.by, small {
+    color: #ABBBC2;
+}
+
+
+.by {
+    margin-top: .7rem;
+    color: #50D1AA;
+}
+
+small {
+    font-size: .6rem;
+}
+
+button {
+    height: 70%;
+    background: #252836;
+    border-radius: 10px;
+    border: none;
+    color: #9290FE;
+    cursor: pointer;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 600;
+}
+
+
+button:hover {
+    background: #9290FE;
+    color: #252836;
+}
+
+
+span {
+    color: #50D1AA;
+    margin-left: 1rem;
+}
+
+#info {
+    flex-direction: column;
+}

@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa 01</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./img/img-top.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <!-- header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+
+            <a href="#" class="nav-logo">by ttdy</a>
+
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="https://github.com/tobi-ttdy-111/vectorial-01" target="_blank" class="nav-link active-link">Ir al código ⇗</a>
+                    </li>
+                </ul>
+                <div class="nav-close" id="navClose">
+                    <i class="ri-close-line"></i>
+                </div>
+                <img src="./img/img-top.png" alt="nav image" class="nav-img">
+            </div>
+
+            <div class="nav-toggle" id="navToggle">
+                <i class="ri-menu-4-line"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main class="main">
+        <div class="home-shape-small"></div>
+        <div class="home-shape-big1"></div>
+        <div class="home-shape-big2"></div>
+        <section class="home">
+
+            <div class="home-container container">
+                <div class="home-info">
+                    <h1 class="home-title">
+                        <span>Programa 01</span> <br>Vectores <br>en R2</span>
+                    </h1>
+                    <p class="home-description">
+                        Aplicacion para graficar vectores de dos dimensiones <br>R2 = { (x, y) | x, y ∈ R }
+                    </p>
+                </div>
+                <div class="home-group">
+
+                    <div class="home-plano">
+                        <!-- <svg width="250" height="250" transform="rotate(-45)" id="svgEtiqueta" class="svg"> -->
+                        <svg class="svg" width="250" height="250" id="svgEtiqueta">
+                            <text transform="rotate(-45)" x="100" y="1000">A</text>
+                        </svg>
+                    </div>
+
+                </div>
+
+                <div class="home-footer">
+                    <div>
+                        <span class="home-footer-title">Introduce el valor de los vectores:</span>
+                        <div class="home-footer-time">
+                            <div class="home-footer-counter">
+                                <input type="number" value="0" class="home-footer-number input" id="vectorA">
+                                <span class="home-footer-subtitle">vector A</span>
+                            </div>
+                            <div class="home-footer-counter">
+                                <input type="number" value="0" class="home-footer-number input" id="vectorB">
+                                <span class="home-footer-subtitle">vector B</span>
+                            </div>
+                            <div class="home-footer-counter">
+                                <input type="number" value="0" class="home-footer-number input" id="vectorC">
+                                <span class="home-footer-subtitle">vector C</span>
+                            </div>
+                            <div class="home-footer-counter">
+                                <input type="number" value="0" class="home-footer-number input" id="vectorD">
+                                <span class="home-footer-subtitle">vector D</span>
+                            </div>
+                        </div>
+                        <br>
+                        <a href="#" class="home-button" id="graficarBtn">GRAFICAR</a>
+                        <a href="#" class="home-button-2" id="rotateBtn"><i class="ri-arrow-left-up-line"></i></a>
+                        <!-- <i class="ri-arrow-up-line"> -->
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- <script src="./scrollreveal.min.js"></script>
+    <script src="./animations.js"></script> -->
+    <script src="./main.js"></script>
+
+</body>
+</html>
